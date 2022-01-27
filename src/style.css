@@ -9,12 +9,36 @@ body
 {
     height: 100vh;
     font-family: 'Poppins';
+    background-color: rgba(223, 223, 223, 0.295);
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .webgl
 {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     outline: none;
+    mix-blend-mode: antialiased;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    z-index: 100;
+    mix-blend-mode: exclusion;
+}
+section {
+    height: 100vh;
+    background-color: rgba(223, 223, 223, 0.295);
 }
